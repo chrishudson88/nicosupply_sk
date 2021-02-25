@@ -12,6 +12,7 @@ body {
 .navbar-brand {
     font-variant: small-caps;
     font-size: 48px;
+    font-weight: 600;
 }
 
 .nav-link {
