@@ -1,3 +1,7 @@
+body {
+    color: white;
+}
+
 #first {
     background-image: url("../img/city.jpg");
     background-size: cover;
