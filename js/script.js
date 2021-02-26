@@ -2,7 +2,11 @@ let currentLocation = window.location.pathname.split("/").pop().split("-").shift
 if (currentLocation === "index") {
     currentLocation = "home";
 }
-const activeNavLink = Array.from(document.querySelectorAll(".nav-link")).find(a => a.innerHTML.split(" ").shift().toLowerCase() === currentLocation.toLowerCase());
+
+const activeNavLink = Array.from(
+    document.querySelectorAll(".nav-link")
+).find(element => element.innerHTML.split(" ").shift().toLowerCase() === currentLocation.toLowerCase());
+
 if (activeNavLink) {
     activeNavLink.classList.add("active");
     activeNavLink.setAttribute("aria-current", "page");
