@@ -34,8 +34,8 @@
                 <div class="container-fluid p-0">
                     <a class="navbar-brand" href="#">Nicosupply</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item mx-3">
@@ -64,15 +64,65 @@
             </div>
             <div class="row mt-3">
                 <form id="my-form" action="https://formspree.io/f/xyybqbkp" method="POST">
-                    <div class="form-group">
+                    <div class="form-group my-3">
                         <label for="email">Email address</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
                     </div>
-                    <div class="form-group mt-3">
+                    <div class="form-group my-3">
+                        <label for="country">Country</label>
+                        <select class="form-select" id="country" name="country" required>
+                            <option selected value="">Select country</option>
+                            <option value="Albania" label="Albania">Albania</option>
+                            <option value="Austria" label="Austria">Austria</option>
+                            <option value="Belarus" label="Belarus">Belarus</option>
+                            <option value="Belgium" label="Belgium">Belgium</option>
+                            <option value="Bosnia and Herzegovina" label="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                            <option value="Bulgaria" label="Bulgaria">Bulgaria</option>
+                            <option value="Croatia" label="Croatia">Croatia</option>
+                            <option value="Cyprus" label="Cyprus">Cyprus</option>
+                            <option value="Czech Republic" label="Czech Republic">Czech Republic</option>
+                            <option value="Denmark" label="Denmark">Denmark</option>
+                            <option value="Estonia" label="Estonia">Estonia</option>
+                            <option value="Finland" label="Finland">Finland</option>
+                            <option value="France" label="France">France</option>
+                            <option value="Germany" label="Germany">Germany</option>
+                            <option value="Greece" label="Greece">Greece</option>
+                            <option value="Hungary" label="Hungary">Hungary</option>
+                            <option value="Iceland" label="Iceland">Iceland</option>
+                            <option value="Ireland" label="Ireland">Ireland</option>
+                            <option value="Italy" label="Italy">Italy</option>
+                            <option value="Latvia" label="Latvia">Latvia</option>
+                            <option value="Liechtenstein" label="Liechtenstein">Liechtenstein</option>
+                            <option value="Lithuania" label="Lithuania">Lithuania</option>
+                            <option value="Luxembourg" label="Luxembourg">Luxembourg</option>
+                            <option value="Macedonia" label="Macedonia">Macedonia</option>
+                            <option value="Malta" label="Malta">Malta</option>
+                            <option value="Moldova" label="Moldova">Moldova</option>
+                            <option value="Monaco" label="Monaco">Monaco</option>
+                            <option value="Montenegro" label="Montenegro">Montenegro</option>
+                            <option value="Netherlands" label="Netherlands">Netherlands</option>
+                            <option value="Norway" label="Norway">Norway</option>
+                            <option value="Poland" label="Poland">Poland</option>
+                            <option value="Portugal" label="Portugal">Portugal</option>
+                            <option value="Romania" label="Romania">Romania</option>
+                            <option value="Russia" label="Russia">Russia</option>
+                            <option value="San Marino" label="San Marino">San Marino</option>
+                            <option value="Serbia" label="Serbia">Serbia</option>
+                            <option value="Slovakia" label="Slovakia">Slovakia</option>
+                            <option value="Slovenia" label="Slovenia">Slovenia</option>
+                            <option value="Spain" label="Spain">Spain</option>
+                            <option value="Sweden" label="Sweden">Sweden</option>
+                            <option value="Switzerland" label="Switzerland">Switzerland</option>
+                            <option value="Ukraine" label="Ukraine">Ukraine</option>
+                            <option value="United Kingdom" label="United Kingdom">United Kingdom</option>
+                            <option value="Vatican City" label="Vatican City">Vatican City</option>
+                        </select>
+                    </div>
+                    <div class="form-group my-3">
                         <label for="message">Message</label>
                         <textarea class="form-control" id="message" name="message" placeholder="Enter message" rows="5"></textarea>
                     </div>
-                    <button id="my-form-button" class="btn btn-primary mt-3">Submit</button>
+                    <button id="my-form-button" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </div>
