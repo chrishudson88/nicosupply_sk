@@ -13,6 +13,14 @@ section#first {
     background-image: url("../img/city.jpg");
 }
 
+#home section#first {
+    background-image: url("../img/city.jpg");
+}
+
+#contact section#first {
+    background-image: url("../img/skyline.png");
+}
+
 .navbar-brand {
     line-height: 75%;
 }
@@ -20,12 +28,12 @@ section#first {
 .navbar-brand.navbar-primary {
     font-variant: small-caps;
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .navbar-brand.navbar-sub {
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .btn, .nav-item a {
@@ -39,7 +47,7 @@ section#first {
 h1 {
     font-size: 68px;
     font-variant: small-caps;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 h2 {
@@ -48,9 +56,8 @@ h2 {
     font-weight: 600;
 }
 
-h2 {
+h3 {
     font-size: 25px;
-    text-transform: uppercase;
     font-weight: 600;
 }
 
@@ -59,51 +66,27 @@ p {
     font-weight: 600;
 }
 
-
-/*
-.btn-sample { 
-  color: #FFFFFF; 
-  background-color: #2ECC71; 
-  border-color: #2ECC71; 
-} 
- 
-.btn-sample:hover, 
-.btn-sample:focus, 
-.btn-sample:active, 
-.btn-sample.active, 
-.open .dropdown-toggle.btn-sample { 
-  color: #FFFFFF; 
-  background-color: #28B062; 
-  border-color: #2ECC71; 
-} 
- 
-.btn-sample:active, 
-.btn-sample.active, 
-.open .dropdown-toggle.btn-sample { 
-  background-image: none; 
-} 
- 
-.btn-sample.disabled, 
-.btn-sample[disabled], 
-fieldset[disabled] .btn-sample, 
-.btn-sample.disabled:hover, 
-.btn-sample[disabled]:hover, 
-fieldset[disabled] .btn-sample:hover, 
-.btn-sample.disabled:focus, 
-.btn-sample[disabled]:focus, 
-fieldset[disabled] .btn-sample:focus, 
-.btn-sample.disabled:active, 
-.btn-sample[disabled]:active, 
-fieldset[disabled] .btn-sample:active, 
-.btn-sample.disabled.active, 
-.btn-sample[disabled].active, 
-fieldset[disabled] .btn-sample.active { 
-  background-color: #2ECC71; 
-  border-color: #2ECC71; 
-} 
- 
-.btn-sample .badge { 
-  color: #2ECC71; 
-  background-color: #FFFFFF; 
+label {
+    color: #212529;
 }
-*/
+
+.form-floating>textarea.form-control {
+    min-height: calc(1.5em + .75rem + 2px);
+    height: unset;
+}
+
+.social-media-links {
+    width: 360px;
+}
+
+.partner-info {
+    margin-top: 80px;
+}
+
+.emails a {
+    color: inherit;
+}
+
+.contact-other-ways {
+    margin-top: 100px;
+}
