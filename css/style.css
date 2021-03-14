@@ -28,15 +28,12 @@ section#first {
     font-weight: 600;
 }
 
-.nav-item a {
+.btn, .nav-item a {
+    padding: 18px 40px;
+    line-height: 0.9;
+    text-transform: uppercase;
+    font-weight: 600;
     font-size: 19px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
-.btn {
-    padding: 8px 24px;
-    text-transform: uppercase;
 }
 
 h1 {
@@ -61,3 +58,52 @@ p {
     font-size: 21px;
     font-weight: 600;
 }
+
+
+/*
+.btn-sample { 
+  color: #FFFFFF; 
+  background-color: #2ECC71; 
+  border-color: #2ECC71; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #FFFFFF; 
+  background-color: #28B062; 
+  border-color: #2ECC71; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #2ECC71; 
+  border-color: #2ECC71; 
+} 
+ 
+.btn-sample .badge { 
+  color: #2ECC71; 
+  background-color: #FFFFFF; 
+}
+*/
