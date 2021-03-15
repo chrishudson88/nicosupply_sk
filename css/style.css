@@ -4,9 +4,11 @@ body {
 }
 
 section {
-    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
 }
 
 section#first {
@@ -36,7 +38,8 @@ section#first {
     font-weight: 500;
 }
 
-.btn, .nav-item a {
+.btn,
+.nav-item a {
     padding: 16px 32px;
     line-height: 0.9;
     text-transform: uppercase;
@@ -89,4 +92,8 @@ label {
 
 .contact-other-ways {
     margin-top: 100px;
+}
+
+.btn svg {
+    vertical-align: -2px
 }
