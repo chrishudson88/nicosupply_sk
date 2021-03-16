@@ -6,17 +6,34 @@ body {
 section {
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
 }
 
-section#first {
-    background-image: url("../img/city.jpg");
+@media (max-width: 600px) {
+    section#first {
+        background-image: url("../img/mobile_city.jpg");
+    }
 }
 
-#home section#first {
+@media (min-width: 601px) {
+    section#first {
+        background-image: url("../img/city.jpg");
+    }
+}
+
+section.separator {
+    background-image: url("../img/separator.png");
+    height: 182px;
+}
+
+
+/* #home section#first {
     background-image: url("../img/city.jpg");
+} */
+
+#home section#second {
+    background-image: url("../img/leaves.jpg");
 }
 
 #contact section#first {
@@ -97,3 +114,8 @@ label {
 .btn svg {
     vertical-align: -2px
 }
+
+
+/* #under-motto {
+    margin-top: 7rem;
+} */
