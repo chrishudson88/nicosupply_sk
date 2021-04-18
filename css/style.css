@@ -32,6 +32,10 @@ section.separator {
     background-image: url("../img/city.jpg");
 } */
 
+#second {
+    padding-top: 150px;
+}
+
 #home section#second {
     background-image: url("../img/leaves.jpg");
 }
@@ -121,6 +125,14 @@ label {
 
 #about #description {
     margin-top: 150px;
+}
+
+#home #second #description {
+    margin-top: 120px;
+}
+
+#description>div {
+    margin-bottom: 150px;
 }
 
 #about section#first {
