@@ -40,6 +40,10 @@ section.separator {
     background-image: url("../img/skyline.png");
 }
 
+#about section#first {
+    background-image: url("../img/skyscrapers.jpg");
+}
+
 .navbar-brand {
     line-height: 75%;
 }
@@ -115,7 +119,10 @@ label {
     vertical-align: -2px
 }
 
+#about #description {
+    margin-top: 150px;
+}
 
-/* #under-motto {
-    margin-top: 7rem;
-} */
+#about section#first {
+    padding-bottom: 150px;
+}
