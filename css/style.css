@@ -23,8 +23,10 @@ section {
 }
 
 section.separator {
-    background-image: url("../img/separator.png");
-    height: 182px;
+    background-image: url("../img/separator.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    height: 180px;
 }
 
 
@@ -46,7 +48,7 @@ section.separator {
 }
 
 #contact section#first {
-    background-image: url("../img/skyline.png");
+    background-image: url("../img/skyline.jpg");
 }
 
 #about section#first {
