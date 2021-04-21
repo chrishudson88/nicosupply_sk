@@ -32,12 +32,17 @@ section.separator {
     background-image: url("../img/city.jpg");
 } */
 
-#second {
+#second,
+#third {
     padding-top: 150px;
 }
 
 #home section#second {
     background-image: url("../img/leaves.jpg");
+}
+
+#home section#third {
+    background-image: url("../img/fruit.jpg");
 }
 
 #contact section#first {
@@ -127,7 +132,7 @@ label {
     margin-top: 150px;
 }
 
-#home #second #description {
+#home #description {
     margin-top: 120px;
 }
 
@@ -145,4 +150,8 @@ label {
 
 .custom-toggler.navbar-toggler {
     border-color: white;
+}
+
+#brand {
+    margin-top: 120px;
 }
